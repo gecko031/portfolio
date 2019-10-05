@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
 .navbar {
-    background-color: #4d4d4d;
+    background-color: black;
+}
+#siteName {
+    font-family: 'Bungee Shade', cursive;
+    font-size-adjust: 2;
+    color:  #5CE1E6;
 }
