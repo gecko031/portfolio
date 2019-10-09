@@ -1,0 +1,33 @@
+h1 {
+    font-family: Bungee Shade, cursive;
+}
+#container {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    position: center;
+    display: inline-block;
+}
+a {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: white;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+#mailContact {
+    text-decoration-color: black;
+}
+#github {
+    background-image:url("src/assets/icons/github.svg");
+    width: 30px;
+    height: 30px;
+}
+#linkedin {
+    background-image:url("src/assets/icons/linkedin.svg");
+    width: 30px;
+    height: 30px;
+}

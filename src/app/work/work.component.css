@@ -1,0 +1,19 @@
+h1 {
+    margin-left: 25%;
+    font-family: Bungee Shade, cursive;
+}
+#thumbs img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    vertical-align: top;
+    display: inline-block;
+}
+div {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content: space-between
+}

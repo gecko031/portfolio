@@ -1,0 +1,19 @@
+h1 {
+    font-family: Bungee Shade, cursive;
+}
+#container {
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: center;
+    display: inline-block;
+}
+.description {
+    margin: 2%;
+}
+img {
+    float: left; 
+    border-radius: 10px; 
+    width: 175px;
+    height:  175px;
+}
