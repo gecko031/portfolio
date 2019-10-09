@@ -1,0 +1,8 @@
+#sticky-footer {
+  flex-shrink: none;
+}
+img {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
