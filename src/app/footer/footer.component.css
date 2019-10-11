@@ -1,5 +1,7 @@
-#sticky-footer {
+#footer {
   flex-shrink: none;
+  border-top: darkred solid;
+  flex-shrink: 0;
 }
 img {
   width: 20px;
