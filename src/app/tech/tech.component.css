@@ -1,14 +1,19 @@
-h1 {
+h2 {
+    margin-left: 25%;
     font-family: Bungee Shade, cursive;
     color: black;
 }
-div {
+.container {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 25px;
+    padding: 5px;
 }
 img {
     width: 30px;
     height: 30px;
     margin: 2px;
+}
+.article {
+    background-color: rgba(211, 211, 211, 0.5);
 }
