@@ -2,6 +2,9 @@ h2 {
     font-family: Bungee Shade, cursive;
     color: black;
 }
+.article {
+    background-color: rgba(211, 211, 211, 0.5);
+}
 #container {
     margin-left: 25%;
     margin-right: 25%;
