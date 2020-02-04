@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 h2 {
-    font-family: Bungee Shade, cursive;
+    font-family: Bungee, cursive;
     color: black;
 }
 .article {
     background-color: rgba(211, 211, 211, 0.5);
+}
+button {
+  padding: 10px;
 }
 #container {
     margin-left: 25%;
@@ -17,6 +22,10 @@ a {
     border-radius: 5px;
     margin: 2px;
     background-color: white;
+}
+p a{
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
 }
 img {
     width: 30px;
