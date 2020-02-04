@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 h2 {
+    padding-top: 20px;
     margin-left: 25%;
-    font-family: Bungee Shade, cursive;
+    font-family: Bungee, cursive;
     color: black;
 }
 .container {
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 25px;
-    padding: 5px;
+    padding-bottom: 20px;
 }
 img {
     width: 30px;
     height: 30px;
-    margin: 2px;
+    margin-right: 2px;
 }
 .article {
     background-color: rgba(211, 211, 211, 0.5);
+}
+p {
+    margin: auto;
+    padding: 3px;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
 }
