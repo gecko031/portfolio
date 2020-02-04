@@ -1,19 +1,71 @@
-h1 {
-    margin-left: 25%;
-    font-family: Bungee Shade, cursive;
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+h2 {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: Bungee, cursive;
+  color: black;
 }
-#thumbs img {
-    width: 200px;
-    height: 200px;
-    padding: 5px;
-    border-radius: 10px;
-    
-    vertical-align: top;
-    display: inline-block;
+a {
+  text-decoration: none;
+  color: white;
 }
-div {
-    margin-left: 25%;
-    margin-right: 25%;
-    display: flex;
-    justify-content: space-between
+.main-container {
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container .container {
+  width: 150px;
+  height: 150px;
+  padding-bottom: 20px;
+}
+.container {
+  position: relative;
+  width: 150px;
+  height:150px;
+}
+img {
+  border-radius: 10px;
+  border-style: solid;
+  padding: 2px;
+}
+.container img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.overlay:hover {
+  opacity: 1;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(122, 122, 122, 0.85);
+}
+.text {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.description {
+  font-size: smaller;
+  font-family: 'Quicksand', sans-serif;
 }
