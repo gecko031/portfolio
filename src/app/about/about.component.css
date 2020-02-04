@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 h2 {
-    font-family: Bungee Shade, cursive;
+    font-family: Bungee, cursive;
     color: black;
 }
 #container {
@@ -12,6 +14,8 @@ h2 {
 }
 p {
     margin: 2%;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
 }
 img {
     float: left; 
