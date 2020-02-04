@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 #footer {
-  flex-shrink: none;
   border-top: darkred solid;
-  flex-shrink: 0;
+  flex-shrink: inherit;
 }
 img {
   width: 20px;
   height: 20px;
   color: white;
+}
+p{
+  font-family: Quicksand, sans-serif;
+  font-weight: 600;
 }
