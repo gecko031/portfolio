@@ -15,6 +15,7 @@ a {
   margin-right: 25%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .main-container .container {
